@@ -48,7 +48,7 @@ void setup() {
     }
 
   setARM();
-  ps5.begin("00:00:00:00:00:00"); //자신의 듀얼센스 맥주소로 바꾸세요
+  ps5.begin("00:00:00:00:00:00"); //자신의 듀얼센스 맥주소로 바꾸세요 (replace your mac address)
 }
 
 void loop() {
