@@ -44,3 +44,11 @@ void blackmanipulator::setARM() {
     for (int i = 1; i <= 5; i++) //모터 속도설정 최고속도도
     dxl.writeControlTableItem(PROFILE_VELOCITY, i, 512);
 }
+
+void blackmanipulator::opengrip() {
+dxl.setGoalPosition(5, 2048);
+}
+
+void blackmanipulator::closegrip() {
+dxl.setGoalPosition(5, 2930);
+}

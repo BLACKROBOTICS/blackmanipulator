@@ -20,6 +20,8 @@ class blackmanipulator {
     void begin();
     void loadARM();
     void setARM();
+    void opengrip();
+    void closegrip();
 };
 
 #endif
